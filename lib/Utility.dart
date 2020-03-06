@@ -5,6 +5,10 @@ class Utility {
     return TextStyle(fontSize: 24, color: Colors.white);
   }
 
+  static TextStyle get nameStyle {
+    return TextStyle(fontSize: 16, color: Colors.white);
+  }
+
   static Gradient get backGround {
     return LinearGradient(
       begin: Alignment.topRight,

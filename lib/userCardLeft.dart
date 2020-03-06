@@ -31,14 +31,14 @@ class UserCardLeft extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(0, 0, 10, 0),
+              margin: EdgeInsets.fromLTRB(10, 0, 10, 0),
               child: Text('90', style: Utility.textStyle),
             ),
           ],
         ),
         Container(
           margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
-          child: Text('90', style: Utility.textStyle),
+          child: Text('Name', style: Utility.nameStyle),
         ),
       ],
     );
