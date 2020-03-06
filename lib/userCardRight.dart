@@ -16,7 +16,7 @@ class UserCardRight extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
-              margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
+              margin: EdgeInsets.fromLTRB(10, 0, 10, 0),
               child: Text('90', style: Utility.textStyle),
             ),
             Container(
